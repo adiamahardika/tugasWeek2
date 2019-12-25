@@ -8,8 +8,12 @@ h1 {
     color: midnightblue;
     font-family: 'Segoe UI';
 }
+h5 {
+    color: whitesmoke;
+    font-family: 'Segoe UI';
+}
 .card {
-    background-color: greenyellow;
+    background-color: rgba(241, 76, 47, 0.712);
     text-align: center;
     padding: 30px;
     border-radius: 25px;
