@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Week 2 Adia Mahardika</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="card">
+        <h1>Ini Kalkulator Canggih Lhoo...</h1>
+        <input type="number" placeholder="Masukkan angka.." id="angka1"/>
+
+        <select id="aritmatika">
+        <option value="tambah">Tambah</option>
+        <option value="kurang">Kurang</option>
+        <option value="kali">Kali</option>
+        <option value="bagi">Bagi</option>
+        </select>
+
+        <input type="number" placeholder="Masukkan angka.." id="angka2"/>
+        <button class="hasil" onclick="calculator()">Hasil</button>
+        </div>
+    <script>
+        function calculator() {
+            let angka1 = parseInt(document.getElementById('angka1').value);
+            let aritmatika = document.getElementById("aritmatika").value;
+            let angka2 = parseInt(document.getElementById('angka2').value);
+
+            if (aritmatika === "tambah"){
+            alert(angka1 + angka2)
+            } else if(aritmatika === "kurang"){
+            alert(angka1 - angka2)
+            } else if(aritmatika === "kali"){
+            alert(angka1 * angka2)
+            } else if(aritmatika === "bagi"){
+            alert(angka1 / angka2)
+            }
+        }
+    </script>
+    </body>
+</html>

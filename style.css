@@ -1,0 +1,44 @@
+body {
+    background-color: whitesmoke;
+    display: flex;
+    margin: auto;
+
+}
+h1 {
+    color: midnightblue;
+    font-family: 'Segoe UI';
+}
+.card {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 30px;
+    border-radius: 25px;
+    margin: auto;
+}
+.hasil {
+    width: 100px;
+    height: 25px;
+    background-color: midnightblue;
+    color: white;
+    border-radius: 25px;
+    margin: auto;
+
+}
+#angka1 {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+#aritmatika{
+    width: 75px;
+    height: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
+#angka2 {
+    width: 200px;
+    height: 25px;
+    text-align: center;
+    border-radius: 25px;
+}
